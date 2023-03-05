@@ -1,6 +1,6 @@
 # Streamlining-AWS-CI-CD
-A Step-by-Step Guide to Building an AWS CI/CD Pipeline with CodeCommit, CodeBuild,CodeDeploy,S3, CodePipeline
-Let us know about AWS CodeCommit :
+## A Step-by-Step Guide to Building an AWS CI/CD Pipeline with CodeCommit, CodeBuild,CodeDeploy,S3, CodePipeline
+## Let us know about AWS CodeCommit :
 
 
 It is a fully-managed source control service that makes it easy for companies to host secure and scalable Git repositories. It provides a secure and reliable way to store and version control your code, with support for code reviews, pull requests, and integrations with other AWS services.
@@ -11,8 +11,8 @@ Code commits are essential for collaboration and teamwork because they allow dev
 
 When a developer commits code, they typically write a commit message that describes the changes they've made. These messages should be concise, descriptive, and follow a consistent format, making it
 
-Some key features of AWS CodeCommit include:
-Secure: CodeCommit uses encryption to protect your code at rest and in transit, with fine-grained access controls to ensure that only authorized users can access your repositories.
+## Some key features of AWS CodeCommit include:
+ Secure: CodeCommit uses encryption to protect your code at rest and in transit, with fine-grained access controls to ensure that only authorized users can access your repositories.
 
 Scalable: CodeCommit can handle repositories of any size, with automatic scaling to meet your needs.
 
@@ -22,7 +22,9 @@ Collaborative: CodeCommit makes it easy for teams to collaborate on code, with s
 
 Customizable: CodeCommit is highly configurable, with support for custom hooks, triggers, and integrations with third-party tools
 
-Step - 1 :
+## Step - 1 :
+
+
 To set up a code repository on CodeCommit and clone it on your local.
 
 Login to AWS account by using valid credentials. Search “CodeCommit” from the search box and click on it. Click on “Create repository”.
@@ -79,8 +81,10 @@ Your policy will be created and added to your user.
 
 
 
-Step - 2 :
-Add a new file from local and commit to your local branch.
+## Step - 2 :
+
+Add a new file from 
+local and commit to your local branch.
 Go to your VS Code. Clone your repository from CodeCommit using the command “git clone <repository_url>”. Make a new file “index.html” and write desired code in it as given below in the screenshot.
 
 
@@ -99,7 +103,7 @@ You will be able to see “index.html” file in your repository.
 
 
 
-Step - 3 :
+## Step - 3 :
 Go to CodeBuild in AWS.
 
 
@@ -166,7 +170,7 @@ The buildspec.yml file will be visible in CodeCommit.
 
 
 
-Step - 4 :
+## Step - 4 :
 
 Go to Developer tools in CodeDeploy and search for applications and then create an application
 
@@ -208,6 +212,9 @@ Add the Deploy stage from CodeDeploy
 
 That's it now build the pipeline and checks the status
 
-Conclusion:
+## Conclusion:
 
 In conclusion, streamlining AWS CI/CD pipeline is an important project that can significantly improve the software development process. To streamline the pipeline, it is important to follow best practices such as creating a modular and scalable architecture, automating the build, test, and deployment processes, and using tools such as AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy. Additionally, it is important to implement security and compliance measures to ensure that the pipeline is secure and meets industry standards. With proper planning and execution, streamlining the AWS CI/CD pipeline can lead to faster and more efficient software development and better-quality software.
+
+## Thank you for reading. I hope you find it useful and informative.
+I've penned my thoughts into a blog, accessible at your fingertips with just a click away @ https://devopsrohith.hashnode.dev/streamlining-aws-cicd
