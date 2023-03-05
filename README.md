@@ -164,3 +164,50 @@ The buildspec.yml file will be visible in CodeCommit.
 
 13 . After some time, the project will be built successfully.
 
+
+
+Step - 4 :
+
+Go to Developer tools in CodeDeploy and search for applications and then create an application
+
+To deploy an app in multiple servers we need a group called as deployment group so we will create it
+
+we need to attach a service role so we will select the code deployment role in our IAM role and check for the permissions
+
+After creating the deployment group go to the search box and search for EC2 and create a new instance and select Ubuntu as an OS provider and launch it
+
+Update security groups and give the keys and values for the tags
+
+In order to deploy your app to EC2, CodeDeploy needs an agent which actually deploys the code on your EC2.
+
+So let's set it up.
+
+Create a shell script with the below contents and run it
+
+Credits : Shubham Londhe
+
+Create a Vim/Nano file and paste it and run the file
+
+It should look like this and the state needs to be actively running
+
+Now go to VS Code and create these
+
+These are the commands used to install nginx
+
+Now as before we have created a buildspec.yml file for CodeBuild , similar to that we will create appspec.yml file for CodeDeploy
+
+Now go to the terminal and use git commands to push them to the server
+
+After the deployment is successful , now go to CodePipeline and create a pipeline
+
+Add storage stage
+
+Adding the build stage
+
+Add the Deploy stage from CodeDeploy
+
+That's it now build the pipeline and checks the status
+
+Conclusion:
+
+In conclusion, streamlining AWS CI/CD pipeline is an important project that can significantly improve the software development process. To streamline the pipeline, it is important to follow best practices such as creating a modular and scalable architecture, automating the build, test, and deployment processes, and using tools such as AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy. Additionally, it is important to implement security and compliance measures to ensure that the pipeline is secure and meets industry standards. With proper planning and execution, streamlining the AWS CI/CD pipeline can lead to faster and more efficient software development and better-quality software.
