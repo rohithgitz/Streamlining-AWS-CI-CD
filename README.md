@@ -217,4 +217,4 @@ That's it now build the pipeline and checks the status
 In conclusion, streamlining AWS CI/CD pipeline is an important project that can significantly improve the software development process. To streamline the pipeline, it is important to follow best practices such as creating a modular and scalable architecture, automating the build, test, and deployment processes, and using tools such as AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy. Additionally, it is important to implement security and compliance measures to ensure that the pipeline is secure and meets industry standards. With proper planning and execution, streamlining the AWS CI/CD pipeline can lead to faster and more efficient software development and better-quality software.
 
 ## Thank you for reading. I hope you find it useful and informative.
-I've penned my thoughts into a blog, accessible at your fingertips with just a click away @ https://devopsrohith.hashnode.dev/streamlining-aws-cicd
+I've penned my thoughts into a blog that thoroughly dissects every aspect, accessible at your fingertips with just a click away @ https://devopsrohith.hashnode.dev/streamlining-aws-cicd
